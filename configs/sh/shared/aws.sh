@@ -1,0 +1,2 @@
+# Configure AWS-CLI
+source /usr/local/bin/aws_zsh_completer.sh
