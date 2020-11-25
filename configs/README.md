@@ -6,9 +6,9 @@ In `~/.zshrc`:
 
 ```sh
 # macOS
-source $HOME/dev/drewfle-bitbucket/toolings/configs/sh/macos.zshrc
+source $HOME/.dev/tooling/configs/sh/macos.zshrc
 # Linux
-source $HOME/dev/toolings/configs/sh/linux.zshrc
+source $HOME/.dev/tooling/configs/sh/linux.zshrc
 ```
 
 ## Git
@@ -17,5 +17,5 @@ In `~/.gitconfig`:
 
 ```gitconfig
 [include]
-    path = /Users/drewfle/dev/drewfle-bitbucket/toolings/configs/git/alias/gitconfig
+  path = ~/.dev/tooling/configs/git/.gitconfig
 ```
