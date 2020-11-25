@@ -1,4 +1,4 @@
-TOOLING=$HOME/.dev/github/drewfle/tooling
+TOOLING=$HOME/.dev/tooling
 
 # ZSH
 source $TOOLING/sh/shared/oh-my-zsh/base.sh
