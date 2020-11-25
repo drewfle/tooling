@@ -1,18 +1,18 @@
 TOOLING=$HOME/.dev/tooling
 
 # ZSH
-source $TOOLING/sh/shared/oh-my-zsh/base.sh
+source $TOOLING/configs/sh/shared/oh-my-zsh/base.sh
 source $ZSH/oh-my-zsh.sh
 
 # Shared
-source $TOOLING/sh/shared/base.sh
-source $TOOLING/sh/shared/aliases.sh
-source $TOOLING/sh/macos/homebrew.sh
+source $TOOLING/configs/sh/shared/base.sh
+source $TOOLING/configs/sh/shared/aliases.sh
+source $TOOLING/configs/sh/macos/homebrew.sh
 
-source $TOOLING/sh/shared/nvm.sh
-source $TOOLING/sh/shared/java-jenv.sh
-source $TOOLING/sh/shared/ruby.sh
-source $TOOLING/sh/shared/aws.sh
+source $TOOLING/configs/sh/shared/nvm.sh
+source $TOOLING/configs/sh/shared/java-jenv.sh
+source $TOOLING/configs/sh/shared/ruby.sh
+source $TOOLING/configs/sh/shared/aws.sh
 
 # Add script-macos to user path
 # PATH=$PATH:$HOME/dev/drewfle-bitbucket/toolings/ssh
