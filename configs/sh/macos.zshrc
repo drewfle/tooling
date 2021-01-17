@@ -4,11 +4,15 @@ TOOLING=$HOME/.dev/tooling
 source $TOOLING/configs/sh/shared/oh-my-zsh/base.sh
 source $ZSH/oh-my-zsh.sh
 
-# Shared
+# Base
 source $TOOLING/configs/sh/shared/base.sh
 source $TOOLING/configs/sh/shared/aliases.sh
-source $TOOLING/configs/sh/macos/homebrew.sh
 
+# Macos
+source $TOOLING/configs/sh/macos/homebrew.sh
+source $TOOLING/configs/sh/macos/aliases.sh
+
+# Nix
 source $TOOLING/configs/sh/shared/nvm.sh
 source $TOOLING/configs/sh/shared/java-jenv.sh
 source $TOOLING/configs/sh/shared/ruby.sh
