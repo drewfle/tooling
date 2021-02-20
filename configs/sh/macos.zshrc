@@ -14,8 +14,8 @@ source $TOOLING/configs/sh/macos/aliases.sh
 
 # Nix
 source $TOOLING/configs/sh/shared/nvm.sh
-source $TOOLING/configs/sh/shared/java-jenv.sh
-source $TOOLING/configs/sh/shared/ruby.sh
+# source $TOOLING/configs/sh/shared/java-jenv.sh
+# source $TOOLING/configs/sh/shared/ruby.sh
 source $TOOLING/configs/sh/shared/aws.sh
 
 # Add script-macos to user path
