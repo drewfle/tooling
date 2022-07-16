@@ -9,3 +9,6 @@ source $ZSH/oh-my-zsh.sh
 source $TOOLING/configs/sh/shared/base.sh
 source $TOOLING/configs/sh/shared/nvm.sh
 source $TOOLING/configs/sh/shared/aliases.sh
+
+# Linux
+source $TOOLING/configs/sh/linux/gem.sh
