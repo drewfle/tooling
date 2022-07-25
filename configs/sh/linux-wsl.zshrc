@@ -11,4 +11,6 @@ source $TOOLING/configs/sh/shared/nvm.sh
 source $TOOLING/configs/sh/shared/aliases.sh
 
 # Linux
-source $TOOLING/configs/sh/linux/gem.sh
+# source $TOOLING/configs/sh/linux/gem.sh
+# Add user bin 
+export PATH=$HOME/bin:$PATH
