@@ -20,7 +20,7 @@ WSL
 https://stackoverflow.com/questions/52423626/remember-git-passphrase-in-wsl
 
 ```
-touch ~/.ssh/config
-chmod 600 ~/.ssh/config
+touch ~/.ssh/config; \
+chmod 600 ~/.ssh/config; \
 echo "AddKeysToAgent yes" >> ~/.ssh/config
 ```
