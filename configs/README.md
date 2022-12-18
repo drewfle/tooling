@@ -8,7 +8,7 @@ In `~/.zshrc`:
 # macOS
 source $HOME/.dev/tooling/configs/sh/macos.zshrc
 # Linux
-source $HOME/.dev/tooling/configs/sh/linux.zshrc
+source $HOME/.dev/tooling/configs/sh/linux.liushpc-nix.zshrc
 # Linux WSL
 source $HOME/.dev/tooling/configs/sh/linux-wsl.zshrc
 ```
