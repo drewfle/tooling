@@ -1,5 +1,7 @@
 # Configs
 
+To set zsh as default shell: `chsh -s $(which zsh)`
+
 ## Sh
 
 In `~/.zshrc`:
