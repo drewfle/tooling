@@ -8,7 +8,7 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug",
-            "program": "${workspaceFolder}/src/target",
+            "program": "${workspaceFolder}/target/debug/hello_cargo",
             "args": [],
             "cwd": "${workspaceFolder}"
         }
