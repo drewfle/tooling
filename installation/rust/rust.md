@@ -9,6 +9,8 @@ https://www.rust-lang.org/tools/install
 sudo apt upadte && sudo apt install build-essential
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+code --install-extension 1YiB.rust-bundle vadimcn.vscode-lldb
 ```
 
 
@@ -84,12 +86,28 @@ To verify the installation:
 ```sh
 cargo -V
 rustc -V
+rustup -V
 ```
 
-```sh
-cd ~/.dev/tooling/installation/rust
+To verify compiler: 
 
+```sh
+cd ~/.dev/tooling/installation/rust/hello_cargo
+```
+
+
+```sh
 rustc main.rs
+# Compiles file main
+
 ./main
-# It should output "Hello world!"
+# Outputs "Hello world!"
+```
+
+To verify VSCode configuration:
+
+```sh
+code .
+
+# Run or debug 
 ```

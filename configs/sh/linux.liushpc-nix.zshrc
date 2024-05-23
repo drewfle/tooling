@@ -10,6 +10,8 @@ source $TOOLING/configs/sh/shared/base.sh
 source $TOOLING/configs/sh/shared/nvm.sh
 source $TOOLING/configs/sh/shared/aliases.sh
 
+source $HOME/.cargo/env
+
 # source $TOOLING/configs/sh/linux/snap.sh
 
 # https://www.tensorflow.org/install/gpu#linux_setup
