@@ -89,12 +89,13 @@ rustc -V
 rustup -V
 ```
 
-To verify compiler: 
+we will use the hello project installed with `cargo new hello_cargo`:
 
 ```sh
 cd ~/.dev/tooling/installation/rust/hello_cargo
 ```
 
+To verify `rustc`:
 
 ```sh
 rustc main.rs
@@ -104,10 +105,19 @@ rustc main.rs
 # Outputs "Hello world!"
 ```
 
+
+To verify cargo:
+
+```sh
+cargo run 
+# Generates target/
+```
+
 To verify VSCode configuration:
 
 ```sh
+# Opens as a vscode project 
 code .
-
-# Run or debug 
 ```
+
+Click run or debug to generate `target/`
